@@ -1,0 +1,6 @@
+django<1.12
+Pillow
+
+boto3
+django-storages
+psycopg2

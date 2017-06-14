@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Elastic beanstalk $ PostgreSQL $ S3 $ Nginx $ UWSGI</h1>
+    {% for post in posts %}
+        <p>{{ post.title }}</p>
+        <img src="{{ post.image.url }}" style="width:100px;">
+    {% empty %}
+        <p>자료가 하나도 없습니다.</p>
+    {% endfor %}
+</body>
+</html>
